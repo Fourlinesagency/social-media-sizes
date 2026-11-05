@@ -1,0 +1,18 @@
+{
+  "name": "social-media-sizes",
+  "version": "1.0.0",
+  "description": "Social media image sizes, text limits, 9:16 safe zones and marketplace photo rules as typed data, with the official source where we found one.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": { ".": { "types": "./dist/index.d.ts", "default": "./dist/index.js" } },
+  "files": ["dist", "src"],
+  "scripts": { "build": "tsc", "test": "node test/test.mjs" },
+  "keywords": ["social-media","image-sizes","instagram","tiktok","youtube","safe-zone","character-limits","dataset"],
+  "author": "Fourlines Agency (https://fourlinesagency.com)",
+  "homepage": "https://prepmypost.com/social-media-image-sizes",
+  "repository": { "type": "git", "url": "git+https://github.com/Fourlinesagency/social-media-sizes.git" },
+  "license": "MIT",
+  "engines": { "node": ">=22.18" },
+  "devDependencies": { "typescript": "^6.0.0" }
+}
